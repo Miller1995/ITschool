@@ -13,5 +13,21 @@ public class ChallengeForLoop {
 
         // find the max number in collection use method asList
         System.out.println(Collections.max(Arrays.asList(numb)));
+
+
+        System.out.println(" ");
+        System.out.println(" ");
+
+
+        // add new idea for solved problem
+        int position = 0;
+        int max = 0;
+        for (int index = 0; index < myArray5.length; index++){
+            if (myArray5[index] > max){
+                max = myArray5[index];
+                position = index;
+            }
+        }
+        System.out.println("Max number from array is: " + max + " and index is: " + position);
     }
 }

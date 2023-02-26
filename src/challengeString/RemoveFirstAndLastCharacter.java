@@ -9,7 +9,7 @@ public class RemoveFirstAndLastCharacter {
                    You're given one parameter, the original string.
                    You don't have to worry with strings with less than two characters.
                  */
-
-
+        String str = "eloquent";
+        System.out.println(str.substring(1,(str.length()-1)));
     }
 }

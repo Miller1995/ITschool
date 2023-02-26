@@ -13,6 +13,7 @@ public class StringRepeat {
 
         System.out.println(repeatString(number,word));
         System.out.println(repeatString2(4,word));
+        System.out.println(repeatString3(7, word));
     }
 
     public static String repeatString(int repeat, String str){
@@ -25,9 +26,16 @@ public class StringRepeat {
 
     public static String repeatString2(int number, String str){
         StringBuilder stringBuilder = new StringBuilder();
-        for ( int index = 0; index < number; index++) {
+            for ( int index = 0; index < number; index++) {
             stringBuilder.append(str);
         }
         return stringBuilder.toString();
     }
+
+    // use string repeat method()
+
+    public static String repeatString3(int number, String str){
+        return str.repeat(number);
+    }
+
 }

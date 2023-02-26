@@ -14,10 +14,8 @@ public class ChallengeForLoop {
         // find the max number in collection use method asList
         System.out.println(Collections.max(Arrays.asList(numb)));
 
-
         System.out.println(" ");
         System.out.println(" ");
-
 
         // add new idea for solved problem
         int position = 0;

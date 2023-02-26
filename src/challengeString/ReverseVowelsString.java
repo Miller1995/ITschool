@@ -32,8 +32,7 @@ public class ReverseVowelsString {
         int position = 0;
         String vowel = "";
 
-
-        // sort the vowel
+                // sort the vowel with for
         for (int index = 0; index < arrayVowels.length; index++){
             if (isVowels(arrayVowels[index])){                               // identify the vowel in array after index
                 position++;                                                  // if the vowel is finding, position increment, initial  position = 0 -> 1 -> 2 -> 3 -> 4

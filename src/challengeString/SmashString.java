@@ -34,7 +34,7 @@ public class SmashString {
             return stringBuilder.substring(0,stringBuilder.length() - 1);
     }
 
-    public static String smash2(String[] strArr){
+    public static String smash2(String[] strArr){           //use join method
         return String.join(" ",strArr);
     }
 }

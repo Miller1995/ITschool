@@ -16,6 +16,7 @@ public class StringRepeat {
         System.out.println(repeatString3(7, word));
     }
 
+    // use concat method
     public static String repeatString(int repeat, String str){
         String x = "";
         for (int index = 0; index < repeat; index++){
@@ -24,6 +25,7 @@ public class StringRepeat {
         return x;
     }
 
+    // use append method and StringBuilder
     public static String repeatString2(int number, String str){
         StringBuilder stringBuilder = new StringBuilder();
             for ( int index = 0; index < number; index++) {
@@ -33,7 +35,6 @@ public class StringRepeat {
     }
 
     // use string repeat method()
-
     public static String repeatString3(int number, String str){
         return str.repeat(number);
     }

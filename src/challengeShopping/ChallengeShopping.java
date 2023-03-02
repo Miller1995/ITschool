@@ -24,16 +24,17 @@ public class ChallengeShopping {
         studentList.add(student4);
         studentList.add(student5);
         studentList.add(student6);
+
         for(Student student : studentList)
             System.out.println(student);
+
         System.out.println("----------------------------------------------------------------");
 
         List<Student> graduateList = new ArrayList<Student>(studentList);  // created new array list in based on the previous list with the same dimensions
         Collections.copy(graduateList, studentList);                        // copy one list to another list use method copy from Collection first param is new list and sec param is list from copy
         for (Student student : graduateList){
-            if (student.isGraduate() )                                      // if isGraduate is true print list
+            if (student.isGraduate())                                      // if isGraduate is true print list
             System.out.println(student);
         }
-
     }
 }
